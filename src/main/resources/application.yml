@@ -1,0 +1,10 @@
+logging:
+  # 在不指定路径，只指定输出日志的文件名，默认输出至当前项目下
+  # 若指定，则会输出至指定目录下
+  file:
+    name: log\springboot.log
+  level:
+    com: debug #发布时改成info  改成 info 时所有debug的都不打印  设成 debug 时会打印debug
+
+
+# 翻墙配置在MyRestTemplate类里设置
